@@ -43,6 +43,7 @@ function Home() {
   useEffect(()=>{
     dispatch(getData())
   },[])
+  console.log("get Dataaa",getData)
 
 
   const handleAddCart=(item)=>{
